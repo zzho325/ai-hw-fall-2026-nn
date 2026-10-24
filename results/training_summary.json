@@ -1,0 +1,57 @@
+{
+  "split": {
+    "seed": 42,
+    "training_examples": 55000,
+    "validation_examples": 5000
+  },
+  "runs": [
+    {
+      "model": "mlp",
+      "best_epoch": 8,
+      "best_validation_accuracy": 0.9742,
+      "hyperparameters": {
+        "epochs": 8,
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "augmentation": false
+      }
+    },
+    {
+      "model": "cnn",
+      "best_epoch": 7,
+      "best_validation_accuracy": 0.9872,
+      "hyperparameters": {
+        "epochs": 8,
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "augmentation": false
+      }
+    },
+    {
+      "model": "cnn_aug",
+      "best_epoch": 8,
+      "best_validation_accuracy": 0.989,
+      "hyperparameters": {
+        "epochs": 8,
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "augmentation": true
+      }
+    },
+    {
+      "model": "transformer",
+      "best_epoch": 8,
+      "best_validation_accuracy": 0.9636,
+      "hyperparameters": {
+        "epochs": 8,
+        "batch_size": 256,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "augmentation": false
+      }
+    }
+  ]
+}

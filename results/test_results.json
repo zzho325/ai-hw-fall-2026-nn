@@ -1,0 +1,37 @@
+{
+  "test_examples": 10000,
+  "runs": [
+    {
+      "model": "mlp",
+      "selected_epoch": 8,
+      "validation_accuracy": 0.9742,
+      "correct": 9746,
+      "accuracy": 0.9746,
+      "cross_entropy_loss": 0.08046277465820313
+    },
+    {
+      "model": "cnn",
+      "selected_epoch": 7,
+      "validation_accuracy": 0.9872,
+      "correct": 9872,
+      "accuracy": 0.9872,
+      "cross_entropy_loss": 0.039473031616210935
+    },
+    {
+      "model": "cnn_aug",
+      "selected_epoch": 8,
+      "validation_accuracy": 0.989,
+      "correct": 9903,
+      "accuracy": 0.9903,
+      "cross_entropy_loss": 0.03188068542480469
+    },
+    {
+      "model": "transformer",
+      "selected_epoch": 8,
+      "validation_accuracy": 0.9636,
+      "correct": 9668,
+      "accuracy": 0.9668,
+      "cross_entropy_loss": 0.1134834716796875
+    }
+  ]
+}
